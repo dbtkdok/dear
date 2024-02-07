@@ -12,7 +12,7 @@
 </head> 
 
 <body>
-  <a href="#" id="section_0_1" class="panels" onclick="fnMovePage('#section_0_1', '#section_1')">
+  <a href="#" id="section_0_1" class="panels none" onclick="fnMovePage('#section_0_1', '#section_1')">
 
   </a>
   <div id="section_1" class="panels none">
@@ -428,38 +428,16 @@
   </div>
  </div>
 
-  <div id="section_final" class="panels none">
-    <div class="msform" style="height: 100%;">
-      <!-- progressbar -->
-      <div id="step_final_top">
-        <span id="fin_top">54</span>
-        <h3 class="result_text">구름 가득한 하늘 사이에 태양이 살짝 보이네요! 하마터면 일출을 못보고 새해를 맞이할 뻔 했네요..!</h3>
-      </div>
-      <div id="step_final_down">
-        <div class="text_box_final">
-          <div onclick="fn_move_detail('sub1')" class="text_justify">
-            <span id="fin_1">12</span>
-            <h2 class="rslt_padoText">풍랑</h2>
-            <h3 class="rslt_cateText">자기조절능력</h3>
-          </div class="text_justify">
-          <div onclick="fn_move_detail('sub2')" class="text_justify">
-            <span id="fin_2">20</span>
-            <h2 class="rslt_padoText">삼각파</h2>
-            <h3 class="rslt_cateText">대인관계능력</h3>
-          </div>
-          <div onclick="fn_move_detail('sub3')" class="text_justify">
-            <span id="fin_3">22</span>
-            <h2 class="rslt_padoText">너울</h2>
-            <h3 class="rslt_cateText">긍정성</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="section_final" class="panels" onclick="fn_move_detail('')">
+    
   </div>
   
-  <div id="section_dtl" class="panels none" onclick="fn_move_detail('')">
-	  
+  <div id="section_dtl" class="panels none" >
+	  <div class="msform" style="height: 100%;">
+	      <div id="step_final_top">
+	        <h3 class="result_text">구름 가득한 하늘 사이에 태양이 살짝 보이네요! 하마터면 일출을 못보고 새해를 맞이할 뻔 했네요..!</h3>
+	      </div>
+	  </div>
   </div>
   
 </body>

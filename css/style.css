@@ -411,12 +411,13 @@ body {
 }
 
 #section_dtl {
+  background-image: url("../img/final_loadpage.jpg");
   background-size: cover;
   background-repeat: round;
 }
 
 #section_final {
-  background-image: url("../img/final_85.png");
+  background-image: url("../img/fianl_result1.jpg");
   background-size: cover;
   background-repeat: round;
 }
@@ -425,7 +426,7 @@ body {
     display: block;
     position: absolute;
     width: 100%;
-    top: 32%;
+    top: 36%;
     text-align: center;
     cursor: none;
     margin-left: 10px;
@@ -491,12 +492,13 @@ body {
 }
 
 .result_text {
-  width:75%;
+  width: 40%;
   position: relative;
   margin: auto;
-  text-align: center;
-  font-family: 'SOYOMapleBoldTTF';
+  text-align: left;
+  font-family: SSShinb7Regular;
   font-size: 24px;
-  color:#fff;
+  color: #000;
   font-weight: 40;
+  line-height: 1.8;
 }
