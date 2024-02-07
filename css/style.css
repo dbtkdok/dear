@@ -26,6 +26,7 @@
 body {
   font-family: MinSansBK;
   margin: 0;
+  min-width: 1250px;
 }
 .panels {
   height: 100%;
