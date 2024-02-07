@@ -1,34 +1,22 @@
 /*custom font*/
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css); /* 제주고딕체 */
 @font-face {
-  font-family: 'KBO-Dia-Gothic_bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
+  font-family: "SSShinb7Regular"; /* 사용하고 싶은 font-family명을 지정 */
+  src: url("../font/SSShinb7Regular_otf.otf") format("opentype"); /* 폰트파일 불러오기 */
 }
 
-/* 소요단풍체 (본문)*/ 
 @font-face {
-	font-family: 'SOYOMapleBoldTTF';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/SOYOMapleBoldTTF.woff2') format('woff2');
-	font-weight: 700;
-	font-style: normal;
+  font-family: "MinSansBK"; /* 사용하고 싶은 font-family명을 지정 */
+  src: url("../font/static/MinSans-Black.otf") format("opentype"); /* 폰트파일 불러오기 */
 }
 
-/* #태백체(숫자 / 점수) */ 
 @font-face {
-    font-family: 'TAEBAEKfont';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "MinSansBold"; /* 사용하고 싶은 font-family명을 지정 */
+  src: url("../font/static/MinSans-Bold.otf") format("opentype"); /* 폰트파일 불러오기 */
 }
-/* #MICE고딕체 (숫자 / 점수) */ 
+
 @font-face {
-  font-family: 'MICEGothic Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+  font-family: "MinSansLg"; /* 사용하고 싶은 font-family명을 지정 */
+  src: url("../font/static/MinSans-Light.otf") format("opentype"); /* 폰트파일 불러오기 */
 }
 
 .jejugothic * { 
@@ -36,7 +24,7 @@
 }
 
 body {
-  font-family: montserrat, arial, verdana;
+  font-family: MinSansBK;
   margin: 0;
 }
 .panels {
@@ -51,16 +39,9 @@ body {
 }
 
 #section_0_1 {
-  /*
-  background-image: url("../img/pado_poster.png");
+  background-image: url("../img/back_ground_1.png");
   background-size: cover;
   background-repeat: round;
-  overflow-y: auto;
-  */
-  background-image: url("../img/pado_poster.png");
-  background-size: cover;
-  background-repeat: round;
-  /*object-fit: contain;*/
   
 }
 
@@ -72,10 +53,17 @@ body {
 
 #section_1 {
   /* background-image: url("../img/step_02.png"); */
-  background-image: url("../img/step_01.png");
+  background-image: url("../img/back_ground_2.png");
   background-size: cover;
   background-repeat: round;
 }
+
+#section_scroll {
+	height: 90%;
+	overflow: auto;
+	margin-top: 50px;
+}
+    
 
 #section_2 {
   background-image: url("../img/step_02.png");
@@ -240,7 +228,7 @@ body {
 }
 
 #step_25 {
-  top: 42%;
+  /* top: 42%; */
 }
 
 #step_26{
@@ -313,16 +301,14 @@ body {
 }
 /*progressbar*/
 .progressbar {
-  overflow: hidden;
+  overflow: auto;
   /*CSS counters to number the steps*/
   counter-reset: step;
-  width: 65%;
+  width: 85%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 15px;
+  display: inline-block;
   margin-top: 5px;
-  position: absolute;
-  left: 15%;
   background-color: rgb(255,255,255,0.5);
   border-radius: 5px;
 }
@@ -341,15 +327,15 @@ body {
 .progressbar li:before {
   content: counter(step);
   counter-increment: step;
-  width: 50px;
+  width: 120px;
   line-height: 35px;
   display: block;
   font-size: 25px;
-  color: #333;
-  background: #c9deef;
-  border-radius: 50px;
+  color: #537eff;
+  background: #f4f4f4;
+  box-shadow: -1px -1px;
+  border-radius: 30px;
   margin: 0 auto 5px auto;
-  
 }
 /*progressbar connectors*/
 .progressbar li:after {
