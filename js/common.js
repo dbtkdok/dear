@@ -2,13 +2,13 @@ var cnt = 0;
 var cntList = new Array();
 
 var final_1 = [14, 16, 27];
-var final_2 = [8, 9, 10, 13];
+var final_2 = [8, 9, 10];
 var final_3 = [6, 11, 18];
 var final_4 = [4, 5, 21];
 var final_5 = [2, 17, 26];
 var final_6 = [15, 20, 24];
 var final_7 = [3, 7, 19];
-var final_8 = [22, 23];
+var final_8 = [13, 22, 23];
 var final_9 = [1, 12, 25];
 
 $(document).ready(function () {
