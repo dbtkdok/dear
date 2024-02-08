@@ -12,13 +12,13 @@
 </head> 
 
 <body>
-  <a href="#" id="section_0_1" class="panels" onclick="fnMovePage('#section_0_1', '#section_1')">
+  <div href="#" id="section_0_1" class="panels" >
 	<div class="msform" style="height: 100%;">
 	      <div id="step_bottom">
-	      	<button tyoe="button" id="step_btn" class="btn">나의 사랑표현방법 찾아보기</button>
+	      	<button tyoe="button" id="step_btn" class="btn" onclick="fnMovePage('#section_0_1', '#section_1')">나의 사랑표현방법 찾아보기</button>
 	      </div>
 	 </div>
-  </a>
+  </div>
   <div id="section_1" class="panels none">
 	<div id="section_scroll">
 	    <div class="msform">
@@ -427,7 +427,12 @@
 	          <li class="set_4">매우 그렇다</li>
 	        </a>
 	      </ul>
+	      <fieldset>
+        <input type="button" onclick="fnMovePage('#section_1', '#section_0_1')" name="next" id="prev"
+          class="next action-button2" value="" style="float: left;" />
+      </fieldset>
 	    </div>
+	    
     </div>
   </div>
  </div>

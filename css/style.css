@@ -1,22 +1,22 @@
 /*custom font*/
 @font-face {
-  font-family: "SSShinb7Regular"; /* 사용하고 싶은 font-family명을 지정 */
-  src: url("../font/SSShinb7Regular_otf.otf") format("opentype"); /* 폰트파일 불러오기 */
+  font-family: "SSShinb7Regular"; /* ì‚¬ìš©í•˜ê³  ì‹¶ì€ font-familyëª…ì„ ì§€ì • */
+  src: url("../font/SSShinb7Regular_otf.otf") format("opentype"); /* í°íŠ¸íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° */
 }
 
 @font-face {
-  font-family: "MinSansBK"; /* 사용하고 싶은 font-family명을 지정 */
-  src: url("../font/static/MinSans-Black.otf") format("opentype"); /* 폰트파일 불러오기 */
+  font-family: "MinSansBK"; /* ì‚¬ìš©í•˜ê³  ì‹¶ì€ font-familyëª…ì„ ì§€ì • */
+  src: url("../font/static/MinSans-Black.otf") format("opentype"); /* í°íŠ¸íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° */
 }
 
 @font-face {
-  font-family: "MinSansBold"; /* 사용하고 싶은 font-family명을 지정 */
-  src: url("../font/static/MinSans-Bold.otf") format("opentype"); /* 폰트파일 불러오기 */
+  font-family: "MinSansBold"; /* ì‚¬ìš©í•˜ê³  ì‹¶ì€ font-familyëª…ì„ ì§€ì • */
+  src: url("../font/static/MinSans-Bold.otf") format("opentype"); /* í°íŠ¸íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° */
 }
 
 @font-face {
-  font-family: "MinSansLg"; /* 사용하고 싶은 font-family명을 지정 */
-  src: url("../font/static/MinSans-Light.otf") format("opentype"); /* 폰트파일 불러오기 */
+  font-family: "MinSansLg"; /* ì‚¬ìš©í•˜ê³  ì‹¶ì€ font-familyëª…ì„ ì§€ì • */
+  src: url("../font/static/MinSans-Light.otf") format("opentype"); /* í°íŠ¸íŒŒì¼ ë¶ˆëŸ¬ì˜¤ê¸° */
 }
 
 .jejugothic * { 
@@ -296,6 +296,28 @@ body {
   position: absolute;
   top: 50%;
 }
+
+.msform .action-button2 {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url('../img/back_icon.png');
+    opacity: 0.6;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    color: rgb(0, 6, 36);
+    border: 0 none;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    position: absolute;
+    top: 0%;
+}
+
+
 .msform .action-button:hover, .msform .action-button:focus {
   box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
   background-color:rgba(0,0,0,0.4)
