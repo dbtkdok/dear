@@ -184,23 +184,23 @@ function fnMovePage(id, nextID) {
 			//$("#section_final").removeClass("none", "");
             
             if(final_cnt_1 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result1.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result1.png')"});
 			} else if(final_cnt_2 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result2.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result2.png')"});
 			} else if(final_cnt_3 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result3.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result3.png')"});
 			} else if(final_cnt_4 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result4.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result4.png')"});
 			} else if(final_cnt_5 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result5.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result5.png')"});
 			} else if(final_cnt_6 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result6.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result6.png')"});
 			} else if(final_cnt_7 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result7.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result7.png')"});
 			} else if(final_cnt_8 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result8.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result8.png')"});
 			} else if(final_cnt_9 == finalin) {
-				$("#section_dtl").css({"background-image" : "url('./img/fianl_result9.jpg')"});
+				$("#section_dtl").css({"background-image" : "url('./img/fianl_result9.png')"});
 			}
 			$("#section_final").show();
             fn_move_detail();
