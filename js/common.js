@@ -237,8 +237,17 @@ function fnMoveNextContent(id, clsNM, num) {
 		 fnMovePage('#section_1', 'final');
 	}
 }
-
+var myVar;
 function fn_move_detail() {
+	$("#load_msg").show();
 	$("#section_final").hide();
+	
+	myVar = setTimeout(showPage, 3000);
+}
+
+
+function showPage() {
+	$("#load_msg").hide();
+	
 	$("#section_dtl").show();
 }

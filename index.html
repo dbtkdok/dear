@@ -12,7 +12,7 @@
 </head> 
 
 <body>
-  <div href="#" id="section_0_1" class="panels" >
+  <div href="#" id="section_0_1" class="panels none" >
 	<div class="msform" style="height: 100%;">
 	      <div id="step_bottom">
 	      	<button tyoe="button" id="step_btn" class="btn" onclick="fnMovePage('#section_0_1', '#section_1')">나의 사랑표현방법 찾아보기</button>
@@ -437,14 +437,22 @@
   </div>
  </div>
 
-  <div id="section_final" class="panels none" onclick="fn_move_detail('')">
+  <div id="section_final" class="panels" onclick="fn_move_detail('')">
     
   </div>
-  
-  <div id="section_dtl" class="panels none" >
-	  <div class="msform" style="height: 100%;">
+<div id="load_msg" class="none">  
+	<div id="load_msg_box">
+		<div id="loader" ></div>
+		<h4 id="loader_text">나에게 온 편지 다운로드 중</h4>
+	</div>
+</div>
+  <div id="section_dtl" class="panels  none" >
+	  <div class="msform animate-bottom" style="height: 100%;">
 	      <div id="step_final_top">
-	        <h3 class="result_text">구름 가득한 하늘 사이에 태양이 살짝 보이네요! 하마터면 일출을 못보고 새해를 맞이할 뻔 했네요..!</h3>
+	        <h3 class="result_text">
+				남을 위한 말이 아닌!<br> 
+				나를 위한 말을 더해주는 Dear(소중한 당신에게)..!
+			</h3>
 	      </div>
 	  </div>
   </div>
